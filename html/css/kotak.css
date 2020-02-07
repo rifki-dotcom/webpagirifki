@@ -1,0 +1,39 @@
+.bungkus {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: 0 auto;
+
+}
+.kotak{
+    height: 100px;
+    width: 100px;
+}
+.item1{
+    background: linear-gradient(red,yellow);   
+    border: solid rgb(255, 255, 255) 5px;
+
+}
+.item1:hover{
+    border-radius: 50%; 
+    background: orange;
+}
+.item2{
+    background: linear-gradient(blue,red);
+    border: solid white 5px;
+    
+}
+.item2:hover{
+    border-radius: 150px;
+    background: brown;
+    
+}
+.item3{
+    background: linear-gradient(green,yellow);
+    border: solid white 5px;
+    
+}
+.item3:hover{
+    border-radius: 25px;
+    background: pink;
+}

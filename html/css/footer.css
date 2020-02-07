@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  background-color: rgb(98, 98, 96);
+  position: absolute;
+  top: 600px;
+  height: 65%;
+  width: 100%;
+}
+.medsos {
+  width: auto;
+  height: auto;
+  margin: auto;
+}
+.medsos img {
+    width: 50px;
+      background-color: rgb(72, 72, 246);
+  border-radius: 100px;
+}
+.medsos img:hover {
+    width: 50px;
+    border-radius: 100px;
+  background-color: white;
+}
+
+.tombol {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  position: relative;
+  display: block;
+  bottom: 38 px;
+  width: auto;
+}
+.map {
+  position: relative;
+  margin: auto;
+  width: auto;
+  height: auto;
+  margin-left: 70%;
+}
